@@ -1,4 +1,4 @@
-FROM nginx:1.13.8-alpine
+FROM nginx:1.13.12-alpine
 
 COPY keys /etc/nginx/keys
 COPY static /usr/share/nginx/html
